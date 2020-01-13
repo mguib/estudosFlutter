@@ -1,0 +1,46 @@
+#Anotações dos Comandos da linguagem Dart:
+-Tipos de variáveis:
+var = "Aceita tanto numeros quanto strings"- "234","Marcos"
+const = "Define uma variável constante no sistema"
+ //Tipo de variável genérico
+ // var nome = "Marcos Guibson"; //usando uma variável genérica e definindo commo uma string;
+  String email = "marcosguibson18@gmail.com"; //para definição de variáveis do tipo 'strings', a palavra deve iniciar como 'S' maiusculo;
+    int numero = 10;
+  double preco = 189.99;
+  bool verifica = true;
+  
+  var nome = ["Marcos","Guibson","silva"];
+  nome[2] = "Kamilla";
+  
+-Operadores aritmeticos:
+  /*Operadores aritmeticos
+   Somar(+)
+   subtrair(-)
+   multiplicar(*)
+   dividir(/)
+   */
+
+-Operadores logicos:
+==(igual)
+!=(diferente)
+>(maior)
+<(menor)
+>=(maior igual)
+<=(menor igual)
+&&(e)
+||(ou)
+!(negaçãoS)
+
+-Laços - Tipo de laço
+ var postagens = [
+    'Viagem entre amigos para a praia',
+    'Natal em familia!!',
+    'Almoço de domingo na casa da mae'
+  ];
+  
+  for(var post in postagens){
+    print("titulo: $post");
+    print("--");
+  }
+}
+
